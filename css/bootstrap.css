@@ -1393,7 +1393,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff
+    background-color: #fff;
 }
 
 button,
@@ -1437,7 +1437,7 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-rounded {
@@ -4286,7 +4286,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid;
+    border-top: 4px solid\9;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4373,6 +4373,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
 .open>.dropdown-menu {
@@ -7681,7 +7682,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000;
+    background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
